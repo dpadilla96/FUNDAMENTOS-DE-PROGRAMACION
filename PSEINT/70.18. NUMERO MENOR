@@ -1,0 +1,31 @@
+Proceso NUM_MENOR
+	
+	Definir a, b, c, d, e, men Como Entero;
+	
+	Escribir "Ingrese cinco numeros"; 
+	Leer a, b, c, d, e;
+	men<- a; 
+	si men>a entonces 
+		men<-b;
+	Sino
+		men<-men;
+	FinSi
+	Si men>c entonces 
+		men<-c;
+	Sino
+		men<-men;
+	FinSi
+	Si men>d Entonces
+		men<-d;
+	Sino
+		men<-men;
+	FinSi
+	Si men>e entonces 
+		men<-e;
+	Sino
+		men<-men;
+	FinSi
+	
+	Escribir "El numero menor de este conjunto es: ", men;
+	
+FinProceso

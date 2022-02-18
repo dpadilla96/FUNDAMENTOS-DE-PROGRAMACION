@@ -1,0 +1,77 @@
+//DIANA PADILLA ZAMORA
+Proceso FACULTADES_MENORES
+	//Construir un programa tal que dados como datos la matricula de un alumno, la carrera en la que esta inscrito, su semestre y su promedio determine si este es
+	//apto para pertenecer a alguna de las facultades menores que tiene la universidad siguiendo las especificaciones siguientes:
+	//Economia debe tener un semestre igual o mayor a 6 y promedio mayor o igual que 8.8
+	//Computación debe tener un semestre igual o mayor 6 y promedio mayor que 8.5
+	//Administración debe tener un semestre igual o mayor que 5 y promedio mayor que 8.5
+	//Contabilidad debe tener un semestre igual o mayor que 5 y promedio mayor que 8.5
+	
+	Definir semestre, carrera Como Entero;
+	Definir promedio Como Real;
+	Escribir "Bienvenido al programa para determinar tu ingreso a alguna Facultad";
+	Escribir "Selecciona la carrera a la que perteneces";
+	Escribir "1. Economía";
+	Escribir "2. Computación";
+	Escribir "3. Administración";
+	Escribir "4. Contabilidad";
+	Leer carrera;
+	
+	segun carrera hacer
+		1: 
+			Escribir "Perteneces a la carrera de Economía";
+			Escribir "Ingresa tu semestre";
+			Leer semestre ;
+			Escribir "Ingresa tu promedio";
+			Leer promedio;
+			Si semestre >=6 y promedio >=8.8 Entonces
+				
+				Escribir "Felicidades eres apto para pertenecer a una Facultad Menor";
+			Sino
+				Escribir "No eres apto para una Facultad Menor";
+			FinSi
+			
+		2:
+			Escribir "Perteneces a la carrera de Computación";
+			Escribir "Ingresa tu semestre";
+			Leer semestre ;
+			Escribir "Ingresa tu promedio";
+			Leer promedio;
+			Si semestre >=6 y promedio >=8.5 Entonces
+				
+				Escribir "Felicidades eres apto para pertenecer a una Facultad Menor";
+			Sino
+				Escribir "No eres apto para una Facultad Menor";
+			FinSi
+			
+		3:
+			Escribir "Perteneces a la carrera de Administración";
+			Escribir "Ingresa tu semestre";
+			Leer semestre ;
+			Escribir "Ingresa tu promedio";
+			Leer promedio;
+			Si semestre >=5 y promedio >=8.5 Entonces
+				
+				Escribir "Felicidades eres apto para pertenecer a una Facultad Menor";
+			Sino
+				Escribir "No eres apto para una Facultad Menor";
+			FinSi
+			
+		4:Escribir "Perteneces a la carrera de Contabilidad";
+			Escribir "Ingresa tu semestre";
+			Leer semestre ;
+			Escribir "Ingresa tu promedio";
+			Leer promedio;
+			Si semestre >=5 y promedio >=8.5 Entonces
+				
+				Escribir "Felicidades eres apto para pertenecer a una Facultad Menor";
+			Sino
+				Escribir "No eres apto para una Facultad Menor";
+			FinSi
+			
+		De Otro Modo:
+			Escribir "Por el momento no puedes pertener a ninguna Facultad";
+			
+	FinSegun
+	
+FinProceso

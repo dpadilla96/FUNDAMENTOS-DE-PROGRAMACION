@@ -1,0 +1,14 @@
+Proceso NUM_ASCENDENTES
+	
+	Escribir "Ingrese cinco numeros enteros"; 
+	Definir a, b, c, d, e, men Como Real;
+	Leer a, b, c, d, e;
+	
+	men<-a;
+	Si a<b & b<c & c<d & d<e Entonces
+		Escribir "Los numeros estan ordenados"; 
+	Sino
+		Escribir "Los numeros no estan ordenados"; 
+	FinSi
+	
+FinProceso

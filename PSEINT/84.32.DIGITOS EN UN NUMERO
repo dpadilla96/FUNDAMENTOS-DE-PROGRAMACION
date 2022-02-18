@@ -1,0 +1,14 @@
+Proceso DIGITOS_EN_NUMERO
+	
+	Escribir "Bienvenido al programa que te dice los digitos de un numero"; 
+	Escribir "Ingresa un numero por favor"; 
+	Definir n, i Como Entero;
+	Leer n;
+	i<-0;
+	Mientras n<>0 Hacer
+		n<-trunc(n/10);
+		i<-i+1;
+	FinMientras
+	Escribir "El numero esta formado por: ", i,  " digitos";
+	
+FinProceso

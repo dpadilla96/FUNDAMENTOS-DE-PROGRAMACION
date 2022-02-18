@@ -1,0 +1,15 @@
+Proceso RETIRO_DE_EFECTIVO
+	
+	Definir t, r Como Entero;
+	t<-0;
+	Repetir
+		Escribir "¿Cuanto dinero quiere retirar?";
+		leer r;
+		t<-t+r;
+	Hasta Que (t>=1000)
+	t<-t-r;
+	t<-1000-t;
+	Escribir "Ya no puede retirar ", r, " solo cuenta con: ", t;
+	
+FinProceso
+

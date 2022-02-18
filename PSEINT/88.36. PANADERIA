@@ -1,0 +1,16 @@
+Proceso PANADERIA
+	
+	Definir n, m, acum Como Entero;
+	acum<-0;
+	Escribir "El total de panes al comenzar el dia: " ;
+	leer n;
+	Escribir "Panes que pide el cliente: " ;
+	leer m;
+	Repetir
+		Escribir n;
+		n<-n-m;
+		acum<-acum+1;
+	Hasta Que n<0;
+	Escribir "Los clientes atendidos son: " , acum;
+	Escribir "Los panes que quedan para el ultimo cliente son: " , abs(n);
+FinProceso

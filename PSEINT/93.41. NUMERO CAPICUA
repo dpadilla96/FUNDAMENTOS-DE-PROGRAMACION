@@ -1,0 +1,22 @@
+Proceso NUMERO_CAPICUA
+	
+	Definir inv, n, s, i, Linf, Lsup Como Real;
+	s<-0;
+	Escribir "Ingrese limite inferior "; 
+	Leer Linf;
+	Escribir "Ingrese Limite superior";
+	Leer Lsup;
+	Para i<-Linf Hasta Lsup Con Paso 1 Hacer
+		n<-i;
+		inv<-0;
+		Mientras n>0 Hacer
+			inv<-(inv*10)+(n mod 10) ;
+			n<-n/10;
+			Si inv <- i Entonces
+				Escribir inv , "Es un Numero capicua" ;
+				s<-s+1;
+			FinSi
+		FinMientras
+	FinPara
+	Escribir "El total de capicuas es : ", s ;
+FinProceso

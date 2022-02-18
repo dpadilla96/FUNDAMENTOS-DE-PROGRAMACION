@@ -1,0 +1,20 @@
+Proceso DOS_NUMEROS
+	
+	Escribir "Bienvenido al programa que calcula dos numeros segun su naturaleza"; 
+	
+	Definir a, b, res Como Real;
+	
+	Escribir "Por favor ingrese numero a";
+	Leer a;
+	Escribir "Por favor ingrese numero b"; 
+	Leer  b; 
+	
+	Si a>0 & b>0 Entonces
+		res<- a*b;
+		Escribir "Sus productos son positivos, su producto es: ", res;
+	Sino
+		res<-a+b; 
+		Escribir "Sus productos son negativos, su suma es: ", res;
+		
+	FinSi
+FinProceso

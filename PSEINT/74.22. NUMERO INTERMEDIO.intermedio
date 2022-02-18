@@ -1,0 +1,28 @@
+Proceso NUM_medio
+	Definir n1,n2,n3 Como Real
+	Escribir 'ingresar tres numeros'
+	Leer n1,n2,n3
+	Si n1<=n2 Y n2<=n3 Entonces
+		Escribir ,n2
+	Sino
+		Si n1<=n3 Y n3<=n2 Entonces
+			Escribir ,n3
+		Sino
+			Si n2<=n1 Y n1<=n3 Entonces
+				Escribir ,n1
+			Sino
+				Si n2<=n3 Y n3<=n1 Entonces
+					Escribir ,n3
+				Sino
+					Si n3<=n1 Y n1<=n2 Entonces
+						Escribir 'el valor intermedio es',n1
+						Escribir ,n1
+					Sino
+						Escribir ,n2
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+FinProceso
+

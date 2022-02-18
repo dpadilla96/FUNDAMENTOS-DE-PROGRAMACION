@@ -1,0 +1,20 @@
+Proceso CUADRADO_CON_RELACION
+	
+	Escribir "Bienvenido al programa que te da el cuadrado de un numero"; 
+	
+	Definir n,m,z como entero;
+	Escribir "Ingrese un numero";
+	Leer n;
+	
+	m<-1;
+	z<-0;
+	
+	Mientras m<=2*n-1 Hacer
+		z<-z+m;
+		m<-m+2;
+		Escribir "El Cuadrado es: ";
+		Escribir z;
+	FinMientras
+	
+FinProceso
+

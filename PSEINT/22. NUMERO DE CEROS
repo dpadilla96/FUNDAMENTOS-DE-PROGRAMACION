@@ -1,0 +1,10 @@
+//DIANA PADILLA ZAMORA
+//CREA UN PROGRAMA TAL QUE DADO COMO DATOS N NUMEROS ENTEROS OBTENGA EL NUMERO DE CEROS
+Proceso NUMERO_DE_CEROS
+	Definir n, c Como Entero;
+	Escribir "Bienvenido al programa que te indica cuantos ceros tiene un numero";
+	escribir "Por favor ingresa un numero entero";
+	Leer n;
+	c <- trunc (n / 9);
+	Escribir "Los ceros que contiene ", n, " son ", c;
+FinProceso

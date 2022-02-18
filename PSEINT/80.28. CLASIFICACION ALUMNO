@@ -1,0 +1,30 @@
+Proceso CLASIFICACION_ALUMNO 
+	Definir nota como real; 
+	Escribir "Bienvenido al programa para la clasificación de alumnos";
+	Escribir "Las notas tiene que ser del 1 al 10";
+	
+	Escribir "Ingresa tu nota por favor"; 
+	Leer nota;
+	
+	Segun nota hacer 
+		1, 2, 3, 4:
+			Escribir "Correspondes a la clasificación D";
+			Escribir "Eres un alumno PESIMO";
+		6, 5:
+			Escribir "Correspondes a la clasificación C";
+			Escribir "Eres un alumno MALO";
+		7:
+			Escribir "Correspondes a la clasificación B"; 
+			Escribir "Eres un alumno REGULAR";
+		8,9,10:
+			Escribir "Correspondes a la clasificacón A"; 
+			Escribir "Eres un alumno BUENO";
+			
+		De Otro Modo:
+			Escribir "Este numero no entra en el rango por favor intentelo de nuevo";
+	FinSegun
+	
+FinProceso
+
+	
+	

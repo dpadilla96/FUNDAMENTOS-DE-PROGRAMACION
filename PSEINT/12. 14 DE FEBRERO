@@ -1,0 +1,17 @@
+//DIANA PADILLA ZAMORA
+Proceso SAN_VALENTIN
+	
+	Definir calificacion Como Real;
+	
+	Escribir "Tu 14 de febrero depende de tu calificacion"; 
+	Escribir "Ingresa tu calificacion"; 
+	Leer calificacion; 
+	
+	Si calificacion>-8 Entonces
+		Escribir "Felicidades puedes festejar el 14 de Febrero"; 
+	FinSi
+	Si calificacion<8 Entonces
+		Escribir "Hijole mano ponte a estudiar"; 
+	FinSi
+	
+FinProceso

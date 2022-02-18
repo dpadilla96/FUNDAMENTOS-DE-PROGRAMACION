@@ -1,0 +1,14 @@
+Proceso CIRCUNFERENCIA_CIRCULO
+	
+	Definir radio, diametro, per Como Real;
+	Escribir "Bienvenido al programa de calculo de circunferencia"; 
+	Escribir "Por favor ingresa el radio de tu circulo"; 
+	Leer radio; 
+	
+	diametro<-radio*2;
+	per<-3.1416*diametro;
+	Escribir "El diametro es: ", diametro; 
+	Escribir "El perimetro de tu circulo es: ", per; 
+	
+	
+FinProceso

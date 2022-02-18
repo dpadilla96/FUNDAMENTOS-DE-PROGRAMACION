@@ -1,0 +1,30 @@
+Proceso orden_inverso_array
+	definir conjunto1 como entero;
+	definir conjunto2 como entero;
+	dimension conjunto1[5];
+	dimension conjunto2[5];
+	escribir "valores del conjunto1 posicion 0";
+	leer conjunto1[0];
+	
+	escribir "valores del conjunto1 posicion 1";
+	leer conjunto1[1];
+	escribir "valores del conjunto1 posicion 2";
+	leer conjunto1[2];
+	escribir "valores del conjunto1 posicion 3";
+	leer conjunto1[3];
+	escribir "valores del conjunto1 posicion 4";
+	leer conjunto1[4];
+	conjunto2[0]<-conjunto1[4];
+	conjunto2[1]<-conjunto1[3];
+	conjunto2[2]<-conjunto1[2];
+	conjunto2[3]<-conjunto1[1];
+	conjunto2[4]<-conjunto1[0];
+	
+	escribir "valores del conjunto2";
+	escribir conjunto2[0];
+	escribir conjunto2[1];
+	escribir conjunto2[2];
+	escribir conjunto2[3];
+	escribir conjunto2[4];
+	
+FinProceso

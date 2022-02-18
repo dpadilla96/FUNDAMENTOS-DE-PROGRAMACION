@@ -1,0 +1,37 @@
+Proceso VALOR_INTERMEDIO
+	Escribir "Bienvenido al programa que indica el valor intermedio"; 
+	definir a, b, c, medio como entero;
+	escribir "Ingrese 3 valores";
+	leer a, b, c;
+	Si a<b&&b<c Entonces
+		medio<-b;
+	Sino
+		
+	FinSi
+	Si b<c&&c<a Entonces
+		medio<-c;
+	Sino
+		
+	FinSi
+	Si c<a&&a<b Entonces
+		medio<-a;
+	Sino
+		
+	FinSi
+	Si c<b&&b<a Entonces
+		medio<-b;
+	Sino
+		
+	FinSi
+	Si a<c&&c<b Entonces
+		medio<-c;
+	Sino
+		
+	FinSi
+	Si b<a&&a<c Entonces
+		medio<-a;
+	Sino
+		
+	FinSi
+	escribir "el valor medio es:", medio;
+FinProceso

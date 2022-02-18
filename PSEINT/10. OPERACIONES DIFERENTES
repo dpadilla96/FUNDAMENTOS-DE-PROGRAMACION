@@ -1,0 +1,17 @@
+//DIANA PADILLA ZAMORA
+Proceso Operaciones_Diferentes
+	
+	definir a, b Como Entero; 
+	Escribir "Ingresa un dato entero"; 
+	Leer a; 
+	
+	Si (a>0) Entonces
+		b<-a+a; 
+	SiNo
+		b<-a*a;
+		
+	FinSi
+	
+	Escribir "El valor agregado segun el resultado es: ", b;
+	
+FinProceso

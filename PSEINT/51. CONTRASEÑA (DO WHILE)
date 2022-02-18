@@ -1,0 +1,30 @@
+Proceso CONTRASE_DO_WHILE
+	
+	Definir id, contra, res Como Entero;
+	id<-0;
+	contra<-0;
+	res<-0;
+	
+	Repetir 
+		Escribir "Bienvenido, ingrese su id"; 
+		Leer id; 
+		Si id<-1024 Entonces 
+			Escribir "Correcto, continue por favor"; 
+			
+		FinSi
+		
+		Escribir "Ahora Ingrese su clave"; 
+		Leer contra; 
+		Si contra<-4567890 Entonces
+			Escribir "A ingresado correctamente"; 
+			
+		FinSi
+		
+		Escribir "Incorrecto, desea intentarlo de nuevo?";
+		Escribir "1=Si"; 
+		Escribir "2=No";
+		Leer res;
+		
+	Hasta Que res = 2
+	
+FinProceso

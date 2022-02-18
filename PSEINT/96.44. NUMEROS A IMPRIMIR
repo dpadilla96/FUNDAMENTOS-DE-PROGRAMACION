@@ -1,0 +1,12 @@
+Proceso numero_imprimir 
+	definir a, b, c Como Entero;
+	escribir "ingresa el rango: ";
+	leer c;
+	para a<-1 hasta c con paso 1 hacer 
+		para b<-1 hasta a con paso 1 hacer 
+			escribir a, "";
+			
+		FinPara
+	FinPara
+	
+FinProceso

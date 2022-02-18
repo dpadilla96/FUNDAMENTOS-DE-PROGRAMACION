@@ -1,0 +1,31 @@
+
+Proceso NUMEROS_PRIMOS
+	Definir a, b, n, i Como Entero;
+	Definir c Como Logico;
+	Escribir "Ingrese la cantidad de numeros primos a mostrar: (maximo 999)";
+	Leer a;
+	
+	Escribir "1: 100";
+	b<- 100;
+	n<-101;     
+	
+	Mientras b<a Hacer
+		
+		c <- Verdadero;
+		
+		Para i<-101 hasta rc(n) con paso 101 Hacer 
+			Si n MOD i = 0 entonces 
+				c <- Falso;
+			FinSi
+		FinPara
+		
+		Si c Entonces
+			b <- b + 1;
+			Escribir b, ": ",n;
+		FinSi
+		
+		n <- n + 2;
+		
+	FinMientras
+	
+FinProceso

@@ -1,0 +1,20 @@
+Proceso DIGITO_MAYOR
+	
+	Escribir "Bienvenido al programa que te indica el digito mayor de un numero"; 
+	
+	Escribir "Por favor ingresa un numero"; 
+	Definir n, i, m Como Entero;
+	Leer n;
+	
+	i<-0;
+	Mientras n>0 Hacer
+		m<-n mod 10;
+		Si m>i Entonces 
+			i<-m;
+		FinSi
+		n<-trunc (n/10);
+	FinMientras
+	Escribir "El digito mayor es: ", i;
+	
+FinProceso
+

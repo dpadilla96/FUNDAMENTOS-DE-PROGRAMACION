@@ -1,0 +1,40 @@
+//En una universidad tienen como politica considerar
+//3 notas en cada curso la nota de trabajos T, la nota
+//de medio ciclo M y la de fin de ciclo F, cada una 
+//tiene un peso de 50%, 20% y 30% respectivamente 
+Proceso TRES_NOTAS
+	Definir T, M, F Como Entero;
+	Definir TT, TM, TF, P Como Real;
+	
+	Escribir "Bienvenido al programa de evaluacion de notas del alumno"; 
+	Escribir "Ingrese la nota de tus trabajos"; 
+	Leer T; 
+	Escribir "Ingrese la nota que obtuvo a medio ciclo"; 
+	Leer M; 
+	Escribir "Ingrese la nota que obtuvo a fin de ciclo"; 
+	Leer F; 
+	Si (0<=T y T<=100) Entonces
+		Si (0<=M Y M<=100) Entonces
+			SI (0<=F Y F<=100) Entonces
+				TT<-T*.50;
+				TM<-M*.20; 
+				TF<-F*.30; 
+				P<-TT+TM+TF;
+				Escribir "El porcentaje obtenido de  Trabajos es: ", TT; 
+				Escribir "El porcentaje obtenido de Medio Ciclo es: ", TM; 
+				Escribir "El porcentaje obtenido de Fin de Ciclo es: ", TF; 
+				Escribir "El promedio obtenido es: ", P;
+				
+			SiNo
+				Escribir "Alguna nota ingresada no es valida"; 
+			FinSi
+			
+		SiNo
+			Escribir "Alguna nota ingresada no es valida"; 
+		FinSi
+		
+	SiNo
+		Escribir "Alguna nota ingresada no es valida";
+	FinSi
+	
+FinProceso

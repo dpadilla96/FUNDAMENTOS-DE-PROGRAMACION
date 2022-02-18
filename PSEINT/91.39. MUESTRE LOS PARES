@@ -1,0 +1,19 @@
+Proceso MUESTRE_LOS_PARES
+	
+	Escribir "Bienvenido al programa que muestra los pares en un rango de numeros";
+	
+	Definir a, b, c Como Entero;
+	c <- 0;
+	Escribir "Ingrese el inicio: ";
+	Leer a;
+	Escribir "Ingrese el final: ";
+	leer b;
+	Mientras (a<b) Hacer
+		Si (a mod 2 = 0) entonces
+			Escribir "",a;
+			c<-c+1;
+		FinSi
+		a<-a+1;
+	FinMientras
+	Escribir "La cantidad de pares fueron: ", c;
+FinProceso

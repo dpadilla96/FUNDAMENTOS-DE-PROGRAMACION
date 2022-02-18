@@ -1,0 +1,20 @@
+//DIANA PADILLA ZAMORA
+Proceso CALCULO_DE_SUELDO
+	
+	Definir sonido Como Entero;
+	Definir temperatura Como Real; 
+	
+	Escribir "Bienvenido al programa para calcular la temperatura"; 
+	Escribir "Ingresa el numero de sonidos emitidos por el grillo: "; 
+	Leer sonido; 
+	
+	Si sonido>0 Entonces
+		temperatura<-(sonido/4)+40; 
+		Escribir "La temperatura es igual a: ", temperatura; 
+		
+	SiNo
+		Escribir "Tu valor es unvalido, por lo tanto no puedo emitir la temperatura"; 
+		
+	FinSi
+	
+FinProceso

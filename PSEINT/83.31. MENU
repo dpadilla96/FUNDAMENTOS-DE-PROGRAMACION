@@ -1,0 +1,48 @@
+Proceso MENU_CARLOS_SADNESS
+	Escribir "Bienvenido al menu de canciones de Carlos Sadness"; 
+	Definir Cancion Como Entero;
+	
+	Escribir "Ingrese un numero y te dire a que canción corresponde"; 
+	Segun Cancion hacer
+		1: 
+			Escribir "El dia que volviste a la tierra"; 
+		2: 
+			Escribir "Fisica Moderna"; 
+		3: 
+			Escribir "Ganas de...(Tributo a Sabina)";
+		4: 
+			Escribir "Chihuahua"; 
+		5: 
+			Escribir "Ahorita"; 
+		6: 
+			Escribir "Ciclo Lunar"; 
+		7: 
+			Escribir "Isla Morenita"; 
+		8: 
+			Escribir "Perseide"; 
+		9: 
+			Escribir "Dias Impares"; 
+		10: 
+			Escribir "Te quiero un poco"; 
+		11: 
+			Escribir "Semitransparente";
+		12: 
+			Escribir "Longitud de onda"; 
+		13: 
+			Escribir "Bikini";
+		14: 
+			Escribir "Siempre Esperandote";
+		15: 
+			Escribir "Soñe contigo"; 
+		16: 
+			Escribir "Hale Bopp"; 
+		17: 
+			Escribir "Sebastian Bach"; 
+		19: 
+			Escribir "El Relampago";
+		20: 
+			Escribir "Silencio Antiguo"; 
+			
+		
+	FinSegun
+FinProceso

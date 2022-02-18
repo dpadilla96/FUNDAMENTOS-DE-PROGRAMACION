@@ -1,0 +1,11 @@
+Proceso NUM_200_AL_1
+	
+	Definir i Como Entero;
+	
+	i<-200;
+	
+		Repetir 
+			Escribir i;
+			i<-i-2;
+		Hasta Que (i=0)
+FinProceso

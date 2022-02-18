@@ -1,0 +1,8 @@
+Proceso TABLA_5
+	Definir a, i, r Como Entero;
+	a<-5;
+	Para i<-1 hasta 10 con paso 1 Hacer
+		r<-a*i;
+		Escribir r;
+	FinPara
+FinProceso

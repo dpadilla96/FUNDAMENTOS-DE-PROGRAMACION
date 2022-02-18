@@ -1,0 +1,14 @@
+Proceso Multiplos 
+	
+	Definir n, m Como Entero;
+	
+	Escribir "Este programa te indica si n es un multiplo de m"; 
+	Escribir "Por favor ingresa dos numeros"; 
+	Leer n, m; 
+	si n%m<-0 Entonces
+		Escribir n, " es un multiplo de ", m; 
+	SiNo
+		Escribir n, " no es un multiplo de ", m; 
+	FinSi
+	
+FinProceso

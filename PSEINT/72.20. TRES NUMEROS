@@ -1,0 +1,56 @@
+Proceso TRES_NUMEROS
+	
+	Definir a, b, c, may, men, med Como Entero;
+	Escribir "Ingrese numero a"; 
+	Leer a; 
+	Escribir "Ingrese numero b"; 
+	Leer b; 
+	Escribir "Ingrese numero c"; 
+	Leer c;
+	
+	may<-a;
+	Si may<b Entonces
+		may<-b; 
+	Sino
+		may<-may;
+	FinSi
+	Si may<c Entonces
+		may<-c; 
+	Sino
+		may<-may;
+	FinSi
+	Escribir "El numero mayor es: ", may;
+	
+	Si a<b & b<c entonces
+		med<-b;
+	FinSi
+	Si b<c & c<a Entonces
+		med<-c;
+	FinSi
+	Si c<a & a<b Entonces
+		med<-a;
+	FinSi
+	Si c<b & b<a Entonces
+		med<-b;
+	FinSi
+	Si a<c & c<b Entonces
+		med<-c;
+	FinSi
+	Si b<a & a<c Entonces
+		med<-a;
+	FinSi
+	Escribir "El numero intemedio es: ", med;
+	
+	men<-a; 
+	si men>b Entonces
+		men<-b; 
+	Sino
+		men<-men; 
+	FinSi
+	si men>c Entonces
+		men<-c; 
+	Sino
+		men<-men;
+	FinSi
+	Escribir "En numero menor es: ", men; 
+FinProceso

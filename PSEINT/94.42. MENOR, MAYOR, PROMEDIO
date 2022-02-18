@@ -1,0 +1,29 @@
+
+Proceso MAYOR_MENOR_PROMEDIO
+	Definir cant_num,Nmayor,p,nro,Nmenor,Tsuma Como Entero;
+	Escribir "Ingrese la cantidad de numeros que desea evaluar";
+	Leer cant_num;
+	Nmayor <- 0;
+	Nmenor <- 0;
+	Tsuma <- 0;
+	Para p<-1 Hasta cant_num Hacer
+		Escribir 'Ingresa un numero ',p;
+		Leer nro;
+		Si nro>Nmayor Entonces
+			Nmayor <- nro;
+		FinSi
+		Si p=1 Entonces
+			Nmenor <- nro;
+		SiNo
+			Si Nmenor>nro Entonces
+				Nmenor <- nro;
+			FinSi
+		FinSi
+		Tsuma <- Tsuma+nro;
+	FinPara
+	Escribir ' RESULTADOS ';
+	Escribir 'El numero mayor es: ',Nmayor;
+	Escribir 'El numero menor es: ',Nmenor;
+	Escribir 'El promedio es: ',Tsuma/cant_num;
+FinProceso
+

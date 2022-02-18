@@ -1,0 +1,29 @@
+Proceso DIAS_DE_LA_SEMANA
+	
+	Escribir "Bienvenido al programa de dias de la semana"; 
+	
+	Definir n Como Entero;
+	Escribir "Por favor ingresa un numero y te dire el día de la semana"; 
+	Leer n; 
+	
+	Segun n Hacer
+		1: 
+			Escribir "Domingo"; 
+		2: 
+			Escribir "Lunes"; 
+		3: 
+			Escribir "Martes"; 
+		4: 
+			Escribir "Miercoles";
+		5: 
+			Escribir "Jueves"; 
+		6: 
+			Escribir "Viernes"; 
+		7: 
+			Escribir "Sabado"; 
+		De Otro modo: 
+			Escribir "No hay mas días, que no conoces los dias de la semana"; 
+			Escribir "¿Acaso eres algun alienigena?"; 
+	FinSegun
+	
+FinProceso

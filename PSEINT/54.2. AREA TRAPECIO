@@ -1,0 +1,17 @@
+Proceso AREA_TRAPECIO 
+	
+	Escribir "Bienvenido al programa de calculo de area de trapecios"; 
+	Definir bp, bm, h, a Como Real;
+	
+	Escribir "Ingrese base mayor"; 
+	Leer bm; 
+	Escribir "Ingrese base menor"; 
+	Leer bp; 
+	Escribir "Ingrese altura"; 
+	Leer h; 
+	
+	a<-((bm+bp)*h/2);
+	Escribir "El area de tu trapecio es: ", a; 
+	
+	
+FinProceso

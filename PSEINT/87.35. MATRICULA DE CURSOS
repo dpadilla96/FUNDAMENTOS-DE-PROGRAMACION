@@ -1,0 +1,18 @@
+Proceso MATRICULA_CREDITOS
+	
+	Definir c, t, i Como Entero;
+	Definir a Como Caracter;
+	t<-0;
+	i<-0;
+	Repetir
+		Escribir "Ingrese el nombre del curso";
+		Leer a;
+		Escribir "Ingrese la cantidad de creditos que tiene el curso";
+		Leer c;
+		t<-t+c;
+		i<-i+1;
+	Hasta Que (t>=22)
+	i<-i-1;
+	Escribir "Usted no puede tomar el curso ", a, " porque excede los creditos";
+	Escribir "Entonces solo cursara: ", i ,"cursos";
+FinProceso

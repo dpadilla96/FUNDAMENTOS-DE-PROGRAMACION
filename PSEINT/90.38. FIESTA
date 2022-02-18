@@ -1,0 +1,37 @@
+Proceso FIESTA
+	Definir p, x, emax, emin, promedio, edad, s Como Real;
+	p<-0;
+	s<-0;
+	emax<-0;
+	emin<-99;
+	Escribir "Nota: Si deseas terminar el ingreso de datos teclea 0";
+	Repetir
+		Escribir "¿Cual es tu edad?"; 
+		Leer edad;
+		Si (edad>=18) Entonces
+			s<-s+edad;
+			p<-p+1;
+			Escribir "Bienvenido a la fiesta que te diviertas"; 
+		Sino
+			Escribir "No puedes entrar chamaco"; 
+			
+		FinSi
+		Si (edad>emax) Entonces
+			emax<-edad;
+			Si (edad<emin) Entonces
+				emin<-edad;
+			FinSi
+		FinSi
+		Escribir "¿Desea ingresar otro invitado?";
+		Escribir "1-SI";
+		Escribir "0-NO";
+		Leer x;
+	Hasta Que (X=0)
+	
+	promedio<-s/p;
+	
+	Escribir "La persona de menor edad tiene: ",emin, " años"; 
+	Escribir "La persona de mayor edad tiene: ",emax, " años"; 
+	Escribir "El promedio de la edad de las personas que ingresaron es de: ", promedio;
+	Escribir "El numero de personas en la fiesta es de: ",p; 
+FinProceso

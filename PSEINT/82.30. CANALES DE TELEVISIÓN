@@ -1,0 +1,43 @@
+Proceso CANALES_DE_TELEVISION
+	Escribir "Bienvenido a la Guía de TV de NIANAVISIÓN"; 
+	
+	Definir c Como Entero;
+	Escribir "Ingresa un canal y te dire el nombre";
+	Leer c;
+	
+	Segun c hacer
+		1: 
+			Escribir "FOX";
+		2:
+			Escribir "MTV";
+		3: 
+			Escribir "Azteca 7";
+		4: 
+			Escribir "Televisa";
+		5: 
+			Escribir "Azteca 13";
+		6: 
+			Escribir "Discovery Channel";
+		7: 
+			Escribir "National Geographic"; 
+		8: 
+			Escribir "HBO Channel";
+		9:
+			Escribir "Cartoon Network"; 
+		10: 
+			Escribir "Disney Channel"; 
+		11: 
+			Escribir "Nickelodion"; 
+		12: 
+			Escribir "Discovery H&H";
+		13: 
+			Escribir "Sony";
+		14: 
+			Escribir "Universal Channel"; 
+		15: 
+			Escribir "SPACE Channel";
+		De Otro Modo:
+			Escribir "Estamos trabajando para traerle mas canales";
+			Escribir "Por su comprension; Gracias"; 
+	FinSegun
+FinProceso

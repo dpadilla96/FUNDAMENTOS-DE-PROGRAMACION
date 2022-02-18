@@ -1,0 +1,11 @@
+//DIANA PADILLA ZAMORA
+Proceso VALOR_ABSOLUTO
+	
+	Definir a, absoluto Como Entero;
+	Escribir "Ingrese un numero"; 
+	Leer a; 
+	absoluto<-abs(a); 
+	
+	Escribir "El valor absoluto de ", a ," es: ", absoluto; 
+	
+FinProceso

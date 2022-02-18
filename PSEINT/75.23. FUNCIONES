@@ -1,0 +1,21 @@
+Proceso evaluar_funcion
+	Definir f1, f2, f3, x Como Entero;
+	Escribir "Bienvenido al programa de calculo de funciones"; 
+	Escribir "Ingrese un valor para x";
+	Leer x;
+	f1<-x*x+1;
+	f2<-x*x+3*x+2;
+	f3<-x+1;
+	Si x<=0 Entonces
+		Escribir "La funcion es: ",f1; 
+	Sino
+		Si 0<x y x<3 Entonces
+			Escribir "La funcion es: ",f2;
+		Sino
+			Si x>=3 Entonces
+				Escribir "La funcion es: ",f3;
+			Sino
+			FinSi
+		FinSi
+	FinSi
+FinProceso

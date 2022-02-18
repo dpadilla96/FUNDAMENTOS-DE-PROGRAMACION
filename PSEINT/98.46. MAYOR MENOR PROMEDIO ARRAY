@@ -1,0 +1,100 @@
+Proceso mayor_menor_promedio
+	definir conjunto,i,suma, mayor, menor como entero;
+	definir prom como real;
+	dimension conjunto[10];
+	i<-0;
+	suma<-0;
+	escribir "Ingrese un numero";
+	leer conjunto[0];
+	suma<-suma+ conjunto[0];
+	mayor<-conjunto[0];
+	menor<-conjunto[0];
+	escribir "Ingrese un numero";
+	leer conjunto[1];
+	suma<-suma+ conjunto[1];
+	si conjunto[1]>mayor entonces
+		mayor<-conjunto[1];
+	FinSi
+	si conjunto[1]<menor entonces
+		menor<-conjunto[1];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[2];
+	suma<-suma+ conjunto[2];
+	si conjunto[2]>mayor entonces
+		mayor<-conjunto[2];
+	FinSi
+	si conjunto[2]<menor entonces
+		menor<-conjunto[2];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[3];
+	suma<-suma+ conjunto[3];
+	si conjunto[3]>mayor entonces
+		mayor<-conjunto[3];
+	FinSi
+	si conjunto[3]<menor entonces
+		menor<-conjunto[3];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[4];
+	suma<-suma+ conjunto[4];
+	si conjunto[4]>mayor entonces
+		mayor<-conjunto[4];
+	FinSi
+	si conjunto[4]<menor entonces
+		menor<-conjunto[4];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[5];
+	suma<-suma+ conjunto[5];
+	si conjunto[5]>mayor entonces
+		mayor<-conjunto[5];
+	FinSi
+	si conjunto[5]<menor entonces
+		menor<-conjunto[5];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[6];
+	suma<-suma+ conjunto[6];
+	si conjunto[6]>mayor entonces
+		mayor<-conjunto[6];
+	FinSi
+	si conjunto[6]<menor entonces
+		menor<-conjunto[6];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[7];
+	suma<-suma+ conjunto[7];
+	si conjunto[7]>mayor entonces
+		mayor<-conjunto[7];
+	FinSi
+	si conjunto[7]<menor entonces
+		menor<-conjunto[7];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[8];
+	suma<-suma+ conjunto[8];
+	si conjunto[8]>mayor entonces
+		mayor<-conjunto[8];
+	FinSi
+	si conjunto[8]<menor entonces
+		menor<-conjunto[8];
+	FinSi
+	escribir "Ingrese un numero";
+	leer conjunto[9];
+	suma<-suma+ conjunto[9];
+	si conjunto[9]>mayor entonces
+		mayor<-conjunto[9];
+	FinSi
+	si conjunto[9]<menor entonces
+		menor<-conjunto[9];
+	FinSi
+	prom<-suma/10;
+	escribir "La suma es ", suma;
+	escribir "El promedio es " , prom;
+	escribir "El mayor es ", mayor;
+	escribir "EL menor es ", menor;
+FinProceso
+
+	

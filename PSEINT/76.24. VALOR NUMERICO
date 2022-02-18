@@ -1,0 +1,25 @@
+Proceso Valor_numerico
+	Escribir "Bienvenido al programa que te arroja el valor numerico"; 
+	
+	Definir a, b, f1, f2, f3 Como Entero;
+	Escribir "Ingrese un valor a"; 
+	Leer a; 
+	Escribir "Ingrese un valor b"; 
+	Leer b; 
+	f1<-2*a+b;
+	f2<-a*2-2*b;
+	f3<-a+b;
+	
+	Si a*a-b*b<0 Entonces
+		Escribir "La funcion es F1 y el resultado es: ", f1; 
+		
+	FinSi
+	Si a*a-b*b=0 Entonces
+		Escribir "La funcion es F2 y el resultado es: ", f2; 
+		
+	FinSi
+	Si a*a-b*b>3 Entonces
+		Escribir "La funcion es F3 y el resultado es: ", f3;
+	FinSi
+	
+FinProceso

@@ -1,0 +1,13 @@
+Proceso PERIMETRO_RECTANGULO
+	
+	Escribir "Bienvenido al programa de calculo de perimetro";
+	Escribir "Este programa es para rectangulos";
+	Definir b, h, p Como Real;
+	
+	Escribir "Ingrese su base";
+	Leer b;
+	Escribir "Ingrese su altura";
+	Leer h;
+	p<-(b+h)*2;
+	Escribir "El perimetro de este rectangulo es: ", p;
+FinProceso

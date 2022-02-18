@@ -1,0 +1,15 @@
+Proceso Area_de_triangulo
+	Definir a, b, c, area como real; 
+	
+	Escribir "Bienvenido al programa de calculo de area"; 
+	Escribir "Por favor ingresa el lado a";
+	Leer a; 
+	Escribir "Por favor ingresa el lado b"; 
+	Leer b; 
+	Escribir "Por favor ingresa el angulo"; 
+	Leer c; 
+	area<-.5*a*b*sen(c);
+	Escribir "El area del triangulo es: "; 
+	
+FinProceso
+	
